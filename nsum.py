@@ -11,4 +11,4 @@ for num in list_value:
     list.append(num)
 n = range_val[-1]
 list = list[:n]
-sum(list)
+print(sum(list))
