@@ -20,7 +20,7 @@ for num in list_values:
     list.append(num)
 start = list[0]
 end = list[-1]
-print(start, end)
+#print(start, end)
 for i in range(start+1,end):
     value = amstrong(i)
     if value == 1:
