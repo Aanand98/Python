@@ -12,6 +12,7 @@ def prime(n):
     if flag == True:
         return 1
 value = 0
+list = []
 list_values = input()
 list_values = list_values.split()
 for num in list_values:
