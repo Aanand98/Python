@@ -8,4 +8,4 @@ start = list[0]
 end = list[-1]
 for i in range(start+1,end):
     if i % 2 == 0:
-        print("",i,end = ''
+        print("",i,end = '')
