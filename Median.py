@@ -1,3 +1,11 @@
+def sort(list,n):
+    for i in range(0,n):
+        for j in range(i,n):
+            if list[i] > list[j]:
+                temp = list[i]
+                list[i] = list[j]
+                list[j] = temp
+    return list
 n = int(input())
 list_values = input()
 list_values = list_values.split()
